@@ -1,6 +1,0 @@
-[home:gerritbeine]
-enabled=1
-autorefresh=0
-baseurl=http://download.opensuse.org/repositories/home:/gerritbeine/openSUSE_Tumbleweed
-type=rpm-md
-keeppackages=0

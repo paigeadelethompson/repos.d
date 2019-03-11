@@ -1,6 +1,0 @@
-[home:tange]
-enabled=1
-autorefresh=0
-baseurl=http://download.opensuse.org/repositories/home:/tange/openSUSE_Factory
-type=rpm-md
-keeppackages=0

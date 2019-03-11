@@ -1,6 +1,0 @@
-[multimedia:apps]
-enabled=1
-autorefresh=0
-baseurl=http://download.opensuse.org/repositories/multimedia:/apps/openSUSE_13.2
-type=rpm-md
-keeppackages=0

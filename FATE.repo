@@ -1,0 +1,7 @@
+[FATE]
+name=SUSE Feature Tracking (openSUSE_Leap_15.0)
+type=rpm-md
+baseurl=http://download.opensuse.org/repositories/FATE/openSUSE_Leap_15.0/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/FATE/openSUSE_Leap_15.0/repodata/repomd.xml.key
+enabled=1

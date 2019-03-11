@@ -1,6 +1,0 @@
-[home:alexqwesa]
-enabled=1
-autorefresh=0
-baseurl=http://download.opensuse.org/repositories/home:/alexqwesa/openSUSE_13.1
-type=rpm-md
-keeppackages=0

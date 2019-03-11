@@ -1,0 +1,7 @@
+[Mono]
+name=.NET/Mono based Software (openSUSE_Leap_15.0)
+type=rpm-md
+baseurl=http://download.opensuse.org/repositories/Mono/openSUSE_Leap_15.0/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/Mono/openSUSE_Leap_15.0/repodata/repomd.xml.key
+enabled=1

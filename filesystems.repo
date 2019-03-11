@@ -1,6 +1,7 @@
 [filesystems]
-enabled=1
-autorefresh=0
-baseurl=http://download.opensuse.org/repositories/filesystems/openSUSE_13.2
+name=Filesystem tools and FUSE-related packages (openSUSE_Leap_15.0)
 type=rpm-md
-keeppackages=0
+baseurl=http://download.opensuse.org/repositories/filesystems/openSUSE_Leap_15.0/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/filesystems/openSUSE_Leap_15.0/repodata/repomd.xml.key
+enabled=1

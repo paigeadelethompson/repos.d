@@ -1,0 +1,7 @@
+[hardware]
+name=Hardware tools (openSUSE_Leap_15.0)
+type=rpm-md
+baseurl=http://download.opensuse.org/repositories/hardware/openSUSE_Leap_15.0/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/hardware/openSUSE_Leap_15.0/repodata/repomd.xml.key
+enabled=1

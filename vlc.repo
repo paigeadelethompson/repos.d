@@ -1,6 +1,7 @@
 [vlc]
 enabled=1
-autorefresh=0
-baseurl=http://download.videolan.org/pub/vlc/SuSE/13.2
+autorefresh=1
+baseurl=http://download.videolan.org/pub/vlc/SuSE/Leap_15.0/
 type=rpm-md
-keeppackages=0
+priority=90
+
