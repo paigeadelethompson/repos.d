@@ -10,7 +10,7 @@ delete old repos
 add repos 
 `ls -1 | xargs -i -t zypper ar -r {} -c -f -K --gpgcheck-strict `
 
-keys
+keys (export)
 ```
 for x in $(sudo find /var/tmp/zypp.*  | grep ".gpg" | xargs -i -t sudo dirname {}); do for y in $(sudo gpg --no-default-keyring --trustdb $x/trustdb.gpg 
 --primary-keyring $x/pubring.kbx --list-keys --with-colons | awk -F: '/^pub:/ { print $5 }'); do
@@ -25,4 +25,11 @@ updating (not a trivial thing)
 
 ```
 find . -type f | xargs -i -t sed -i 's/13.2/15.0/g' {}
+```
+
+
+package list
+
+```
+rpm -q -a --qf '%{NAME} ' > xps_9360.package.list   
 ```
